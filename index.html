@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><path d=%22M50,15 C25,15 15,35 15,50 C15,65 25,85 50,85 C75,85 85,65 85,50 C85,35 75,15 50,15 Z M50,25 C70,25 78,40 78,50 C78,60 70,75 50,75 C30,75 22,60 22,50 C22,40 30,25 50,25 Z M48,35 C40,35 38,45 38,50 C38,55 40,65 48,65 L48,35 Z M52,35 L52,65 C60,65 62,55 62,50 C62,45 60,35 52,35 Z%22 fill=%22none%22 stroke=%22%2300d4ff%22 stroke-width=%223%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/></svg>">
+    <title>Alphare | Sintoniza tu Aprendizaje</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <canvas id="waveCanvas"></canvas>
+        <div class="hero-content">
+            <h1 id="logo">Alphare</h1>
+            <p class="tagline">Biofeedback de vanguardia para alcanzar el estado de flujo cognitivo mediante inducción de ondas Alpha.</p>
+            <button class="cta-button" id="startBtn">Empieza a aprender</button>
+        </div>
+    </header>
+    <section id="videoContainer" class="video-section" style="display: none;">
+    <div class="video-wrapper">
+        <iframe id="alphareVideo" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+    <section class="features">
+        <div class="card">
+            <h3>Monitoreo EEG</h3>
+            <p>Adquisición de señales en tiempo real con precisión de grado neurofisiológico.</p>
+        </div>
+        <div class="card">
+            <h3>Análisis Alpha</h3>
+            <p>Algoritmos avanzados para detectar cuando tu cerebro está listo para absorber información.</p>
+        </div>
+        <div class="card">
+            <h3>Optimización</h3>
+            <p>Retroalimentación inmediata para reducir la carga cognitiva y evitar la fatiga mental.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
